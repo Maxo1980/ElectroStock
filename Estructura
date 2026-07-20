@@ -1,0 +1,11 @@
+stockcli/
+├── main.py
+├── models.py
+├── storage.py
+├── app.tcss
+└── data/
+    └── stock.json   (se crea solo si no existe)
+
+instalacion
+pip install textual
+python main.py

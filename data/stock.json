@@ -1,0 +1,18 @@
+{
+  "componentes": [
+    {
+      "id": "8792153a",
+      "codigo": "TP4056",
+      "descripcion": "Cargador de baterias 18650 a 1A 1C",
+      "cantidad": 4,
+      "ubicacion": "Cajones 3"
+    },
+    {
+      "id": "4a6b46bf",
+      "codigo": "TP4057",
+      "descripcion": "Cargador de baterias 18650 3A 1C",
+      "cantidad": 3,
+      "ubicacion": "Cajones 4"
+    }
+  ]
+}

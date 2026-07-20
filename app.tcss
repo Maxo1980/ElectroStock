@@ -1,0 +1,78 @@
+Screen {
+    layout: vertical;
+}
+
+#body {
+    height: 1fr;
+}
+
+#sidebar {
+    width: 26;
+    background: $panel;
+    border-right: solid $primary;
+    padding: 1;
+}
+
+#sidebar Button {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+.menu-title {
+    color: $accent;
+    text-style: bold;
+    margin-top: 1;
+}
+
+#main {
+    width: 1fr;
+}
+
+#search {
+    height: 3;
+    padding: 0 1;
+}
+
+#tabla {
+    height: 1fr;
+}
+
+#statusbar {
+    height: 1;
+    background: $primary;
+    color: $text;
+    padding: 0 1;
+}
+
+.warning-row {
+    color: $warning;
+}
+
+.danger-row {
+    color: $error;
+}
+
+#form-modal {
+    align: center middle;
+}
+
+#form-box {
+    width: 60;
+    height: auto;
+    border: thick $accent;
+    background: $surface;
+    padding: 1 2;
+}
+
+#form-box Input {
+    margin-bottom: 1;
+}
+
+#confirm-box {
+    width: 50;
+    height: auto;
+    border: thick $error;
+    background: $surface;
+    padding: 1 2;
+    align: center middle;
+}
